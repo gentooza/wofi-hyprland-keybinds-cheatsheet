@@ -17,7 +17,7 @@ This script provides a quick and efficient way for Hyprland users to access and 
 ## Prerequisites
 
 - **Hyprland**: You must have Hyprland installed and properly configured on your system.
-- **Wofi**: This script utilizes Rofi to display the keybindings menu. Ensure Wofi is installed before using this script.
+- **Wofi**: This script utilizes Wofi to display the keybindings menu. Ensure Wofi is installed before using this script.
 
 ## Installation
 
@@ -25,13 +25,13 @@ This script provides a quick and efficient way for Hyprland users to access and 
 2. **Make the Script Executable**: Change the script's permissions to make it executable by running:
 
     ```bash
-    chmod +x rofi_keybinds.sh
+    chmod +x wofi_keybinds.sh
     ```
 
 3. **Configure Hyprland**: Make sure your Hyprland configuration file (`~/.config/hypr/hyprland.conf`) includes the keybindings you intend to use.
     ```
     $mod=SUPER
-    bind=$mod, A, exec, ~/path/to/script/rofi_keybinds.sh               # Show all keybinding
+    bind=$mod, A, exec, ~/path/to/script/wofi_keybinds.sh               # Show all keybinding
     ```
 
 ---
